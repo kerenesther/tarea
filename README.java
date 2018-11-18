@@ -125,10 +125,18 @@ public class Tarea2 {
     public static class Deportista extends Persona {
 
         public Deportista() {
-            setNombre("Rodrigo Esteban");
-            setApellido("Rivera Carranza");
-            setAño(1998);
-            setApodo("fiel");
+            setNombre("Erick Francisco");
+            setApellido("Nisbeth Altamirano");
+            setAño(1982);
+            setApodo("El Chele");
+        }
+        public void imprimir() {
+            System.out.println("");
+            System.out.println("Nombre: " + nombre);
+            System.out.println("Apellido: " + apellido);
+            System.out.println("Año de Nacimiento: " + año);
+            System.out.println("Apodo: " + apodo);
+            System.out.println("");
         }
 
     }
