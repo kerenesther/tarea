@@ -128,7 +128,7 @@ public class Tarea2 {
             setNombre("Erick Francisco");
             setApellido("Nisbeth Altamirano");
             setAño(1982);
-            setApodo("El Chele");
+            setApodo("El Chele Cambray");
         }
         public void imprimir() {
             System.out.println("");
